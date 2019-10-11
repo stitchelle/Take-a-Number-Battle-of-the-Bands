@@ -6,12 +6,8 @@ Your job is to write a function that accepts any band name as an argument. The f
 */
 let bandNumber = 1
 
-const takeNumber = function () {
-
-    /*
-        Write your awesome code here. See comments
-        below for what should be returned.
-    */
+const takeNumber = function (bandName) {
+    return `${bandNumber++}. ${bandName}` //++ in front mean add 1 first then use that value, ++ in the back use that value then add 1
 
 }
 
